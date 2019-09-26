@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "bamboo": "node node_modules/mocha/bin/mocha -R mocha-bamboo-reporter"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/jamalabbasi/jestpupeeteer#readme",
   "devDependencies": {
     "jest": "^24.9.0",
-    "mocha": "^6.2.0"
+    "mocha": "^6.2.0",
+    "mocha-bamboo-reporter": "^1.1.2"
   }
 }
