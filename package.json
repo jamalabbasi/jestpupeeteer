@@ -26,7 +26,7 @@
   "homepage": "https://github.com/jamalabbasi/jestpupeeteer#readme",
   "devDependencies": {
     "jest": "^24.9.0",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "mocha-bamboo-reporter": "^1.1.2"
   },
   "dependencies": {
